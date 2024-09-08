@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Retro CSS Test</title>
+
+<style>
+
+table {
+    background-color: cyan;
+
+    font-family: mono;
+}
+
+table, td {
+    border: solid black 1px;
+}
+
+td {
+    padding: 1em;
+    font-weight: 600;
+}
+
+div.outerborder {
+    margin-top: 10em;
+    max-width: 60%;
+    margin-inline: auto;
+
+    padding: 0.5em;
+    background-color: cyan;
+
+    filter: drop-shadow(black 1em 1em);
+
+    overflow-y: hidden;
+}
+
+div.windowtitle {
+    margin-top: -1.75em;
+    text-align: center;
+}
+
+div.windowtitle span {
+    padding-inline: 0.2em;
+    background: black;
+    color: white;
+}
+
+div.buttons {
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+div.buttons button {
+    background-color: yellow;
+    border: 0px;
+
+    font-size: 1em;
+    font-weight: 600;
+
+    color: rgba(50, 0, 0, 0.7);
+
+    filter: drop-shadow(black 0.5em 0.5em);
+}
+
+div.buttons button inline {
+    color: rgba(0, 0, 0, 1.0);
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+</style>
+
+</head><body>
+
+<div class="outerborder">
+<table>
+    <tr><td>
+        <div class="windowtitle"><span>System Alert!</span></div>
+
+        <p>
+            Attention system user. Our S.M.A.R.T system has detected suspicious activity from
+            your machine. Our administrators have dispatched a <u>cock smashing procedure</u> as retaliation.
+            You are to comply immediately and present your <u>cock</u> and <u>balls</u> for smashing with a rock.
+        </p>
+    </td></tr>
+    <tr><td>
+        <p>
+            Please select an option out of the following on how you would wish to proceed.
+        </p>
+
+        <div class="buttons">
+        <button><inline>S</inline>mash My Cock Immediately</button>
+        <button><inline>A</inline>ppeal Cock Smashing</button>
+        <button><inline>P</inline>lead Mercy</button>
+        </div>
+    </td></tr>
+</table>
+</div>
+
+</body></html>
